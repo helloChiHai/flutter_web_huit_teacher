@@ -24,7 +24,19 @@
         "xem": "View",
         "sua": "Edit",
         "them": "Add",
-        "phanhoichung": "General feedback"
+        "xoa": "Delete",
+        "huy": "Cancel",
+        "xong": "Done",
+        "phanhoichung": "General feedback",
+        "chuahotrodinhdangnay": "This format is not supported yet",
+        "khongcodulieu": "No data",
+        "dacoloixayra": "Error has occurred",
+        "khancap": "Urgent",
+        "binhthuong": "Normal",
+        "hethongchinh": "Main system",
+        "chongngay": "Choose date",
+        "xoaboloc": "Clear filter",
+        "dangsudungboloc": "Using filter"
     },
     "thongtinphananh": {
         "thongtinphananh": "Feedback information",

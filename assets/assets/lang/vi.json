@@ -24,7 +24,19 @@
         "xem": "Xem",
         "sua": "Sửa",
         "them": "Thêm",
-        "phanhoichung": "Phản hồi chung"
+        "xoa": "Xoá",
+        "huy": "Huỷ",
+        "xong": "Xong",
+        "phanhoichung": "Phản hồi chung",
+        "chuahotrodinhdangnay": "Chưa hỗ trợ định dạng này",
+        "khongcodulieu": "Không có dữ liệu",
+        "dacoloixayra": "Đã có lỗi xảy ra",
+        "khancap": "Khẩn cấp",
+        "binhthuong": "Bình thường",
+        "hethongchinh": "Hệ thống chính",
+        "chonngay": "Chọn ngày",
+        "xoaboloc": "Xoá bộ lọc",
+        "dangsudungboloc": "Đang sử dụng bộ lọc"
     },
     "thongtinphananh": {
         "thongtinphananh": "Thông tin phản ánh",
