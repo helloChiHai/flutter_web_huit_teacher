@@ -2,15 +2,19 @@
 
 window.jsPromiseFunction = function (message) {
   return new Promise((resolve, reject) => {
-    if (window.FlutterChannel) {
-      window.FlutterChannel.postMessage(message);
-      resolve("Message sent to Flutter: " + message);
+    if (window.flutter_inappwebview) {   // <-- đúng phải check cái này
+      window.flutter_inappwebview.callHandler("FlutterChannel", message)
+        .then(function (response) {
+          console.log("Flutter response:", response);
+          resolve(response);
+        });
     } else {
-      console.warn("FlutterChannel not available");
-      reject("FlutterChannel not available");
+      console.warn("flutter_inappwebview not available");
+      reject("flutter_inappwebview not available");
     }
   });
 };
+
 
 
 window.jsOpenTabFunction = function (url) {
